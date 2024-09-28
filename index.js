@@ -4,7 +4,7 @@ const twilio = require('twilio');
 
 // Twilio Credentials
 const accountSid = 'AC0d9223de0faa24039835e6207d902a51';  // Get this from your Twilio dashboard
-const authToken = '43e8d4ec1abccad5565400681e1efc13';    // Get this from your Twilio dashboard
+const authToken = 'af8d77309311b0d1a0b74cbd5e9fecda';    // Get this from your Twilio dashboard
 const client = new twilio(accountSid, authToken);
 
 // Initialize Express
