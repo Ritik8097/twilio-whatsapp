@@ -11,6 +11,11 @@ const client = new twilio(accountSid, authToken);
 const app = express();
 app.use(bodyParser.json());
 
+app.get('/',(req,res)=>{
+  res.send('hi')
+})
+
+
 // Endpoint to receive Shopify webhook
 app.post('/webhook', (req, res) => {
   const orderData = req.body;
