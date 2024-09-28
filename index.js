@@ -15,7 +15,6 @@ app.get('/',(req,res)=>{
   res.send('hi')
 })
 
-
 // Endpoint to receive Shopify webhook
 app.post('/webhook', (req, res) => {
   const orderData = req.body;
